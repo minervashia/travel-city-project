@@ -1,17 +1,17 @@
 body{
-    font-family:"poppins",san-serif ;
+    font-family:"Poppins",san-serif ;
     background:#272044;
 }
 .container{
     max-width: 1400px;
     margin:0 auto;
 }
-.grid{
+ .grid {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
 }
  
-section{
+section {
     max-width:1200px ;
     margin:0 auto;
 }
@@ -65,7 +65,7 @@ footer {
     background-image: linear-gradient(rgba(39,32,68,0.9),
     rgba(39,32,68,0.9)),
     url("../images/lisbon-footer.png");
-    background-repeat:no-repeat ;
+    background-repeat: no-repeat ;
     background-size: cover;
     padding: 100px 0;
 }
