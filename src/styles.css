@@ -6,6 +6,15 @@ body{
     max-width: 1400px;
     margin:0 auto;
 }
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+ 
+section{
+    max-width:1200px ;
+    margin:0 auto;
+}
 
 
 
@@ -48,10 +57,54 @@ header a {
     color: #272044;
     text-transform: uppercase;
     background:white;
-    padding:16pv 32px;
+    padding:16px 32px;
     display: inline-block;
 }
-@media (max-width: 900px) {
+footer {
+    color:white;
+    background-image: linear-gradient(rgba(39,32,68,0.9),
+    rgba(39,32,68,0.9)),
+    url("../images/lisbon-footer.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    padding: 100px 0;
+}
+footer h3 {
+    font-size:20px ;
+    font-weight:700 ;
+    line-height: 30px;
+}
+footer p{
+   font-size:400px ;
+    font-weight:16 ;
+    line-height: 24px;
+    opacity: 0.7;
+    margin-right: 20px;
+} 
+
+footer ul {
+    padding: 0;
+}
+footer li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer a {
+    color: white;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 960px) {
    header {
     padding: 60px 0;
    } 
