@@ -33,6 +33,9 @@ grid-template-columns:1fr 1fr 1fr ;
     width:100% ;
     aspect-ratio: 1/1;
 }
+.intagram-embeds{
+    margin:30px 0 ;
+}
 .card{
     background:white ;
     margin: 30px 0;
@@ -243,4 +246,5 @@ section{
 .embed{
     aspect-ratio: 16/9;
 }
+
 }
