@@ -26,7 +26,7 @@ grid-template-columns:1fr 1fr 1fr ;
 }
 
 
-.grid-3-columns-first-narrow{
+.grid-3-columns-with-first-narrow{
     grid-template-columns:1fr 2fr 2fr ;
 }
 
