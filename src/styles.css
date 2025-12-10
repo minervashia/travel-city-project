@@ -22,11 +22,11 @@ body{
     grid-template-columns: 1fr 1fr;
 }
 .grid-3-columns {
-grid-template-columns:1fr 1fr 1fr ;
+grid-template-columns:1fr 1fr 1fr;
 }
 
 
-.grid-3-columns-with-first-narrow{
+.grid-3-columns-with-first-narrow {
     grid-template-columns:1fr 2fr 2fr ;
 }
 
@@ -233,8 +233,8 @@ font-size: 20px;
 header h3 {
     font-size: 12px;
 }
-.grid{
-    grid-template-columns:1fr;
+.grid {
+    grid-template-columns:  1fr;
     grid-gap:32px;
 }
 section{
@@ -245,7 +245,7 @@ section{
     display: none;
 }
 .embed{
-    aspect-ratio: 16/9;
+    aspect-ratio: 16 / 9;
 }
 
 }
